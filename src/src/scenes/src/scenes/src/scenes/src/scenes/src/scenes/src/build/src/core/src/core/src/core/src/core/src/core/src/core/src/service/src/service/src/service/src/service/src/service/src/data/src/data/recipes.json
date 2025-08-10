@@ -1,0 +1,18 @@
+[
+  {
+    "id": "low_g_sour",
+    "name": "Low\u2011G Sour",
+    "steps": [
+      "pour:spirit:40",
+      "add:citro:20",
+      "shake:4",
+      "strain",
+      "garnish:lemon"
+    ],
+    "glass": "rocks",
+    "difficulty": 2,
+    "flavors": ["sour", "crisp"],
+    "basePrice": 18,
+    "stockUse": { "spirit": 40, "citro": 20 }
+  }
+]

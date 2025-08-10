@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bar_counter",
+    "name": "Bar Counter",
+    "size": [2, 1],
+    "interactPoint": [0, -1],
+    "requires": ["power"],
+    "walkable": false,
+    "cost": 300,
+    "effects": { "prepSpeedMult": 1.0 },
+    "rotationModes": [0, 90, 180, 270],
+    "sprite": "assets/furniture/bar_counter.png"
+  },
+  {
+    "id": "tap_station",
+    "name": "Tap Station",
+    "size": [1, 1],
+    "interactPoint": [0, -1],
+    "requires": ["power"],
+    "walkable": false,
+    "cost": 200,
+    "effects": { "dispenseSpeedMult": 1.5 },
+    "rotationModes": [0, 90, 180, 270],
+    "sprite": "assets/furniture/tap_station.png"
+  },
+  {
+    "id": "table",
+    "name": "Table",
+    "size": [1, 1],
+    "interactPoint": [0, 0],
+    "requires": [],
+    "walkable": false,
+    "cost": 100,
+    "effects": {},
+    "rotationModes": [0, 90, 180, 270],
+    "sprite": "assets/furniture/table.png"
+  }
+]
